@@ -1,4 +1,5 @@
-box = [[0,0,0,0,0]*10]
+box = [[0 for _ in range(10)] for _ in range(10)]
 
-print(box)
+box[2][3] = 1
+
 print(box)
